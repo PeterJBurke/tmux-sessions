@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="300">
 <title>tmux sessions</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
@@ -114,35 +115,35 @@ h1 {
 </style>
 </head>
 <body>
-<div class="statusline"><div><span>[tmux] 12 sessions, 1 attached</span><span>00:43 23-Nov-26</span></div></div>
+<div class="statusline"><div><span>[tmux] 13 sessions, 3 attached</span><span>18:28 25-Nov-26</span></div></div>
 
 <div class="wrap">
   <header>
     <h1>tmux sessions</h1>
-    <p class="tally"><span><i class="dot wait"></i><b>2</b> waiting on me</span><span><i class="dot work"></i><b>2</b> working now</span><span><i class="dot idle"></i><b>2</b> agent idle</span><span><i class="dot gone"></i><b>6</b> agent exited</span></p>
-    <p class="stamp">Snapshot 23 Nov 2026, 00:43 UTC. One box per session on my cloud machine.</p>
+    <p class="tally"><span><i class="dot wait"></i><b>1</b> waiting on me</span><span><i class="dot work"></i><b>3</b> working now</span><span><i class="dot idle"></i><b>2</b> agent idle</span><span><i class="dot gone"></i><b>6</b> agent exited</span></p>
+    <p class="stamp">Updated 25 Nov 2026, 18:28 UTC. One box per session on my cloud machine.</p>
   </header>
 
   <main class="grid">
-    <div class="box">
-      <span class="top"><span class="nm">fcclaude</span><span class="pill wait">Waiting on me</span></span>
-      <span class="sum">StackF765 flight controller, in KiCad.</span>
-      <span class="need wait">Review and pay the JLCPCB cart.</span>
-    </div>
     <div class="box">
       <span class="top"><span class="nm">fc</span><span class="pill wait">Waiting on me</span></span>
       <span class="sum">V6 flight controller, in EasyEDA. Paused.</span>
       <span class="need wait">Tell Codex my weekly usage.</span>
     </div>
     <div class="box">
-      <span class="top"><span class="nm">orchestrator</span><span class="pill work">Working now</span></span>
-      <span class="sum">Drone paper revision, due 13 Dec.</span>
-      <span class="need">Checking references in the manuscript.</span>
-    </div>
-    <div class="box">
       <span class="top"><span class="nm">bills</span><span class="pill work">Working now</span></span>
       <span class="sum">Expense reimbursements.</span>
-      <span class="need">3 new receipts to file.</span>
+      <span class="need">Screen active in the last few minutes.</span>
+    </div>
+    <div class="box">
+      <span class="top"><span class="nm">495</span><span class="pill work">Working now</span></span>
+      <span class="sum">5-inch NDAA drone design and renders.</span>
+      <span class="need">Screen active in the last few minutes.</span>
+    </div>
+    <div class="box">
+      <span class="top"><span class="nm">fcclaude</span><span class="pill work">Working now</span></span>
+      <span class="sum">StackF765 flight controller, in KiCad.</span>
+      <span class="need">Screen active in the last few minutes.</span>
     </div>
     <div class="box">
       <span class="top"><span class="nm">195</span><span class="pill idle">Agent idle</span></span>
@@ -155,14 +156,9 @@ h1 {
       <span class="need">Idle since 16 Nov. Can be closed.</span>
     </div>
     <div class="box">
-      <span class="top"><span class="nm">495</span><span class="pill gone">Agent exited</span></span>
-      <span class="sum">5-inch NDAA drone design and renders.</span>
-      <span class="need">Exited 18 Nov. One fix awaits my say.</span>
-    </div>
-    <div class="box">
-      <span class="top"><span class="nm">199</span><span class="pill gone">Agent exited</span></span>
-      <span class="sum">Drones 2 course setup on Canvas.</span>
-      <span class="need">Exited 18 Nov. Four items left open.</span>
+      <span class="top"><span class="nm">orchestrator</span><span class="pill gone">Agent exited</span></span>
+      <span class="sum">Drone paper revision, due 13 Dec.</span>
+      <span class="need">Shell only since 25 Nov.</span>
     </div>
     <div class="box">
       <span class="top"><span class="nm">159a</span><span class="pill gone">Agent exited</span></span>
@@ -170,14 +166,19 @@ h1 {
       <span class="need">Exited 18 Nov. One student reply open.</span>
     </div>
     <div class="box">
-      <span class="top"><span class="nm">195codex</span><span class="pill gone">Agent exited</span></span>
-      <span class="sum">Codex's cut of the class film.</span>
-      <span class="need">Paused 9 Nov. May be superseded.</span>
+      <span class="top"><span class="nm">199</span><span class="pill gone">Agent exited</span></span>
+      <span class="sum">Drones 2 course setup on Canvas.</span>
+      <span class="need">Exited 18 Nov. Four items left open.</span>
     </div>
     <div class="box">
       <span class="top"><span class="nm">bto</span><span class="pill gone">Agent exited</span></span>
       <span class="sum">Funding proposals.</span>
       <span class="need">No recorded work since 5 Oct.</span>
+    </div>
+    <div class="box">
+      <span class="top"><span class="nm">195codex</span><span class="pill gone">Agent exited</span></span>
+      <span class="sum">Codex&#x27;s cut of the class film.</span>
+      <span class="need">Paused 9 Nov. May be superseded.</span>
     </div>
     <div class="box">
       <span class="top"><span class="nm">3dprint</span><span class="pill gone">Agent exited</span></span>
@@ -186,7 +187,7 @@ h1 {
     </div>
   </main>
 
-  <p class="note">Each session is an AI coding agent in its own tmux window. This page is a snapshot and does not update itself.</p>
+  <p class="note">Each session is an AI coding agent in its own tmux window. Status and dates are read from tmux every 10 minutes and published when something changes. The descriptions are written by hand. 1 more session is open but not described here yet.</p>
 </div>
 </body>
 </html>
