@@ -115,13 +115,13 @@ h1 {
 </style>
 </head>
 <body>
-<div class="statusline"><div><span>[tmux] 13 sessions, 3 attached</span><span>19:20 25-Nov-26</span></div></div>
+<div class="statusline"><div><span>[tmux] 13 sessions, 3 attached</span><span>19:26 25-Nov-26</span></div></div>
 
 <div class="wrap">
   <header>
     <h1>tmux sessions</h1>
-    <p class="tally"><span><i class="dot wait"></i><b>1</b> waiting on me</span><span><i class="dot work"></i><b>2</b> working now</span><span><i class="dot idle"></i><b>4</b> agent idle</span><span><i class="dot gone"></i><b>5</b> agent exited</span></p>
-    <p class="stamp">Updated 25 Nov 2026, 19:20 UTC. One box per session on my cloud machine.</p>
+    <p class="tally"><span><i class="dot wait"></i><b>1</b> waiting on me</span><span><i class="dot work"></i><b>3</b> working now</span><span><i class="dot idle"></i><b>3</b> agent idle</span><span><i class="dot gone"></i><b>6</b> agent exited</span></p>
+    <p class="stamp">Updated 25 Nov 2026, 19:26 UTC. One box per session on my cloud machine.</p>
   </header>
 
   <main class="grid">
@@ -129,6 +129,11 @@ h1 {
       <span class="top"><span class="nm">fc</span><span class="pill wait">Waiting on me</span></span>
       <span class="sum">Flight controller circuit board design. Paused.</span>
       <span class="need wait">Waiting for my reply since 19 Nov.</span>
+    </div>
+    <div class="box">
+      <span class="top"><span class="nm">bills</span><span class="pill work">Working now</span></span>
+      <span class="sum">Tool that auto-writes a public session status page.</span>
+      <span class="need">Screen active in the last few minutes.</span>
     </div>
     <div class="box">
       <span class="top"><span class="nm">orchestrator</span><span class="pill work">Working now</span></span>
@@ -139,11 +144,6 @@ h1 {
       <span class="top"><span class="nm">fcclaude</span><span class="pill work">Working now</span></span>
       <span class="sum">StackF765 flight controller, in KiCad.</span>
       <span class="need">Screen active in the last few minutes.</span>
-    </div>
-    <div class="box">
-      <span class="top"><span class="nm">bills</span><span class="pill idle">Agent idle</span></span>
-      <span class="sum">Tool that auto-writes a public session status page.</span>
-      <span class="need">Nothing pending. Idle since 25 Nov.</span>
     </div>
     <div class="box">
       <span class="top"><span class="nm">495</span><span class="pill idle">Agent idle</span></span>
@@ -159,6 +159,11 @@ h1 {
       <span class="top"><span class="nm">pi</span><span class="pill idle">Agent idle</span></span>
       <span class="sum">One-off machine report by the Pi agent.</span>
       <span class="need">Nothing pending. Idle since 16 Nov.</span>
+    </div>
+    <div class="box">
+      <span class="top"><span class="nm">sttr</span><span class="pill gone">Agent exited</span></span>
+      <span class="sum">Small business research funding proposal prep</span>
+      <span class="need">Shell only since 23 Nov.</span>
     </div>
     <div class="box">
       <span class="top"><span class="nm">159a</span><span class="pill gone">Agent exited</span></span>
@@ -187,7 +192,7 @@ h1 {
     </div>
   </main>
 
-  <p class="note">Each session is an AI coding agent in its own tmux window. Status and dates are read from tmux every 10 minutes and published when something changes. The descriptions are written automatically. 1 more session is open but not shown.</p>
+  <p class="note">Each session is an AI coding agent in its own tmux window. Status and dates are read from tmux every 10 minutes and published when something changes. The descriptions are written automatically.</p>
 </div>
 </body>
 </html>
